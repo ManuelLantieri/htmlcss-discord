@@ -135,12 +135,14 @@ header{
 
 .header-top {
     padding: 16px 0;
-    background-color: #3161e0;
+    background-color: #255EE9;
 }
 
 .header-bottom {
     padding: 150px 0;
     background-image: url('../img/jumbo.png');
+    background-position: center;
+    background-size: cover;
 }
 
 .header-top > .container {
