@@ -118,6 +118,7 @@ h1{
 
 .btn-white{
     background-color: #ffffff;
+    
 }
 
 .btn-black{
@@ -195,6 +196,12 @@ header{
 .header-bottom .hero p{
     margin-top: 30px;
     margin-bottom: 16px;
+}
+
+.hero-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
 }
 
 /*-----------
