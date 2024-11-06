@@ -99,6 +99,9 @@ h1{
     line-height: normal;
 }
 
+.logo{
+    cursor: pointer;
+}
 
 /*-----------
     button
@@ -122,17 +125,37 @@ h1{
 
 .btn-white{
     background-color: #ffffff;
-    
+    cursor: pointer;
 }
+
+.btn-white:hover{
+    color: #255EE9;
+}
+
+.hero-buttons .btn-white:hover{
+    color: #4B79F3;
+}
+
+
 
 .btn-black{
     background-color: #23272a;
     color: #ffffff;
 }
 
+.btn-black:hover{
+    background-color: #393d41;
+    cursor: pointer;
+}
+
 .btn-purple{
-    background-color: #8ea1e1;
+    background-color: #6D83D0;
     color: #ffffff;
+}
+
+.btn-purple:hover{
+    background-color: #8EA1E1;
+    cursor: pointer;
 }
 
 
@@ -184,12 +207,17 @@ header{
     list-style: none;
     display: flex;
     justify-content: center;
-    gap: 70px
+    gap: 45px
 }
 
 .main-nav ul a {
     text-decoration: none;
     color: inherit
+}
+
+.main-nav ul a:hover{
+        text-decoration: underline;
+        color: #ffffff;
 }
 
 /* header bottom */
@@ -297,7 +325,9 @@ footer {
     border: none;
     color: #ffffff;
     font-size: 12px;
+    cursor: pointer;
 }
+
 
 .footer-top .col-big {
     width: 70%;
@@ -330,7 +360,7 @@ footer {
     padding-bottom: 50px;
 }
 .footer-bottom > .container {
-    border-top: 1px solid #4a5882;
+    border-top: 2px solid #4a5882;
     padding: 16px 0;
     display: flex;
     justify-content: space-between;
@@ -343,5 +373,14 @@ footer {
 
 .footer-bottom .btn{
     color: #ffffff;
-    background-color: #8EA1E1;
+    background-color: #6D83D0;
+    cursor:pointer;
+}
+.footer-bottom .btn:hover{
+background-color: #8EA1E1;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #ffffff;
 }
