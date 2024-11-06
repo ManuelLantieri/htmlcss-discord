@@ -214,10 +214,15 @@ section .col-big {
     width: 60%;
 }
 
+section h1{
+    margin-bottom: 15px;
+}
+
 section .col-small {
     width: 40%;
-    margin-top: 30px;
+    margin-top: 35px;
     padding: 0 90px;
+    align-items: center;
 }
 
 /*-----------
