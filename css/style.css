@@ -200,7 +200,7 @@ section {
 }
 
 section:nth-child(2n) {
-    background-color: #d3d3d3;
+    background-color: #f6f6f6;
 }
 
 section > .container {
