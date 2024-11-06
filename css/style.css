@@ -36,6 +36,7 @@
     background-color: #1e90ff;
     border: 1px dashed black;
 }
+    
 .debug .col-small {
     background-color: #ffc0cb;
     border: 1px dashed black;
@@ -91,6 +92,7 @@ body{
 
 h1{
     font-size: 40px;
+    line-height: normal;
 }
 
 
@@ -203,7 +205,9 @@ section:nth-child(2n) {
 
 section > .container {
     display: flex;
+    gap: 50px;
 }
+
 
 
 section .col-big {
@@ -212,7 +216,10 @@ section .col-big {
 
 section .col-small {
     width: 40%;
+    margin-top: 30px;
+    padding: 0 90px;
 }
+
 /*-----------
     FOOTER
 ------------*/
