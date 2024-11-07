@@ -169,12 +169,16 @@ header{
 }
 
 .header-top {
+    width: 100%;
     padding: 16px 0;
     background-color: #255EE9;
+    position:fixed;
+    
 }
 
 .header-bottom {
-    padding: 150px 0;
+    padding-top: 220px;
+    padding-bottom: 150px;
     background-image: url('../img/jumbo.png');
     background-position: center;
     background-size: cover;
@@ -254,7 +258,9 @@ section > .container {
     /* gap: 50px; */
 }
 
-
+section p{
+    margin-top: 8px;
+}
 
 section .col-big {
     width: 60%;
@@ -269,6 +275,11 @@ section .col-small {
     margin-top: 35px;
     padding: 0 100px;
     align-items: center;
+}
+
+section h2{
+    font-size: 40px;
+    line-height: 1.2;
 }
 
 .last-section{
@@ -312,7 +323,7 @@ footer {
 }
 
 
-.col-small h2{
+footer .col-small h2{
     color: #6d83d0;
 }
 
